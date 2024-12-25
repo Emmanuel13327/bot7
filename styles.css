@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #2e3a87;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 1em;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1em;
+}
+
+.project-card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    text-align: center;
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #2e3a87;
+    color: white;
+}
